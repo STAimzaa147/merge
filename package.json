@@ -1,0 +1,21 @@
+{
+  "name": "merge-project",
+  "version": "1.0.0",
+  "main": "src/merge.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "start": "node dist/merge.js"
+  },
+  "author": "Aimeric Supasuth",
+  "license": "ISC",
+  "description": "Merge Project",
+  "dependencies": {
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}
